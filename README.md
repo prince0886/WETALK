@@ -1,12 +1,29 @@
-# React + Vite
+💬 WETALK: Real-Time Chat Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+WETALK is a modern, responsive chat platform designed to provide users with a seamless messaging experience across devices. Built with React.js, Vite, and Tailwind CSS, WETALK emphasizes real-time communication, dynamic user interaction, and media-rich content sharing. The system aims to enhance user engagement by offering instant message updates, interactive profiles, and a visually appealing interface.
 
-Currently, two official plugins are available:
+🚀 Key Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Real-Time Messaging: Instant two-way communication with WebSocket-based updates for low latency.
 
-## Expanding the ESLint configuration
+Dynamic User Profiles: Users can customize their profiles with pictures and status messages, displayed in real time.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Interactive Media Sharing: Supports sharing of text, images, and media files within chat conversations.
+
+Scalable UI Components: Designed to handle multiple user profiles and different message types efficiently, maintaining performance at scale.
+
+Cross-Device Compatibility: Fully responsive layout ensuring seamless experience on desktops, tablets, and smartphones.
+
+Optimized Rendering: Supports smooth rendering of over 100+ chat messages with efficient scrolling and minimal latency.
+
+🧠 Novelty: Performance and User Engagement
+
+WETALK outperforms traditional chat applications by implementing:
+
+Efficient Virtual DOM Diffing for minimal re-renders and fast UI updates.
+
+Lazy Loading of Media Content to reduce initial load time and improve performance.
+
+Dynamic Message Prioritization: Prioritizes unread or recent messages for faster access.
+
+Robust Error Handling: Ensures stable connections and reconnection mechanisms in poor network conditions.
