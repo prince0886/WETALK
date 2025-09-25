@@ -10,6 +10,7 @@ const App = () => {
     bg-conatin">
       <Routes>
         <Route path='/' element={<HomePage />} />
+        <Route path='/WETALK' element={<HomePage />} />  {/* Add this line */}
         <Route path='/login' element={<LoginPage />} />
         <Route path='/profile' element={<ProfilePage />} />
       </Routes>
